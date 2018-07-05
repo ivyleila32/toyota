@@ -1,0 +1,60 @@
+/*Mantiene el tamanio del div al agregar bordes o padding*/
+*, *::before, *::after { 
+	box-sizing: border-box;
+}
+
+section h1 {
+	color: #db2c2c;
+}
+
+.secciones {
+	display: flex;
+}
+
+.cuerpo {
+	padding: 10px;
+}
+
+.izquierda {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	margin-right: -4px;
+	border-right: solid 1px black;
+	padding-bottom: 10px;
+}
+
+.historia {
+	border-bottom: solid 1px black;
+}
+
+.innovaciones {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	padding: 5px;
+}
+
+#footer {
+	background: #caceca;
+	height: 90px;
+	text-align: center;
+}
+
+#footer img {
+	vertical-align: text-bottom;
+}
+
+.autoViejo  img {
+	float: left;
+	margin-right: 10px;
+}
+
+.aspectos img {
+	float: left;
+	margin-right: 10px;
+}
+
+#footer p {
+	margin: 0px;
+}

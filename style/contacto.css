@@ -1,0 +1,30 @@
+.form{
+    width: 50%;
+    margin: auto;
+}
+
+li{
+    display: flex;
+    padding: 1%;
+}
+
+.lista_contacto{
+    padding: 0;
+}
+
+.lista_contacto li div{
+    width: 30%;
+}
+
+.email input{
+    width: 60%;
+}
+
+.mensaje input{
+    width: 60%;
+    height: 30%;
+}
+
+.submit{
+    margin-left: 30%;
+}

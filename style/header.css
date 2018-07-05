@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+}
+
+header {
+	display: flex; 
+	justify-content: space-between;
+	background: #caceca;
+	height: 100px;
+}
+
+nav { 
+	padding: 35px 25px 25px 25px;
+}
+
+nav a {
+	font-size: 24px; 
+	padding: 0 5px;
+	border-right: solid 1px black;
+	padding-right: 9px;
+	text-decoration: none; color: #000 /*Mantiene el color de los a del nav cuando son visitados*/
+}
+
+nav a:last-child{
+	border-right: none;
+}
