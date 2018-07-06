@@ -24,3 +24,65 @@ nav a {
 nav a:last-child{
 	border-right: none;
 }
+
+.dropButton{
+	display: none;
+}
+
+.dropButton div{
+	height: 80%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.dropButton div div{
+	height: 10%;
+	width: 80%;
+	border-radius: 5px;
+	background-color: black;
+	margin: auto;
+}
+
+@media screen and (max-width: 768px){
+	.dropdown{
+		position: relative;
+		display: inline-block;
+		float: right;
+	}
+	
+	.dropContent {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		right: 0;
+	}
+	
+	/* Show the dropdown menu on hover */
+	.dropdown:hover .dropContent {display: block;}
+	
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+	.dropdown:hover .dropButton {background-color: #ffffff;}
+	
+	.dropButton{
+		display: inline;
+		height: 100%;
+		width: 125px;
+		border: none;
+		background-color: #e3e9e3;
+		transition-duration: 500ms;
+	}
+	
+	.dropLogo{
+		height: 100%;
+		width: 100%;
+	}
+
+	nav a{
+		border-right: none;
+	}
+}
