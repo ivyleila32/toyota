@@ -1,6 +1,7 @@
 .form{
     width: 50%;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 li{
@@ -9,11 +10,13 @@ li{
 }
 
 .lista_contacto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
     padding: 0;
 }
 
 .lista_contacto li div{
-    width: 30%;
+    width: 15%;
 }
 
 .email input{
@@ -27,4 +30,18 @@ li{
 
 .submit{
     margin-left: 30%;
+}
+#footer {
+	background: #caceca;
+	height: 90px;
+	text-align: center;
+}
+
+#footer img {
+	vertical-align: text-bottom;
+}
+
+#footer p {
+    margin: 0px;
+    text-align: center;
 }
