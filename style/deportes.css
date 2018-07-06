@@ -11,10 +11,12 @@
     font-family: Arial, Helvetica, sans-serif;
     color:black;
     text-align: left;
-    margin: 0px;
+    margin: 50px;
+    border-bottom: solid 1px black;
+    padding: 0px 20px 0px 20px;
     
 }
-#titulo{
+.titulo{
     font-size: 24pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:red;
@@ -31,10 +33,10 @@
 
 .subtitulo h3{
 
-    font-size: 24pt;
+    font-size: 18pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -44,4 +46,26 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: left;
+}
+.subtitulo{
+   
+    border-bottom: solid 1px black;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 50px 0px 50px;
+
+}
+
+#footer {
+	background: #caceca;
+	height: 90px;
+	text-align: center;
+}
+
+#footer img {
+	vertical-align: text-bottom;
+}
+
+#footer p {
+    margin: 0px;
+    text-align: center;
 }
