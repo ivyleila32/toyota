@@ -24,7 +24,6 @@ nav a {
 nav a:last-child{
 	border-right: none;
 }
-<<<<<<< HEAD
 
 .dropButton{
 	display: none;
@@ -86,4 +85,4 @@ nav a:last-child{
 	nav a{
 		border-right: none;
 	}
->>>>>>> d2632d4dbccb4ffebd4640b6870e97b5605b70d5
+}
